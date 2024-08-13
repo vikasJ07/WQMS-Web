@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%2Fimages%3Fk%3Dwater%2Bdroplet%2Bearth&psig=AOvVaw1SOPHXK6QJ3qRQTjdkDfmq&ust=1723216081306000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKjL76zW5YcDFQAAAAAdAAAAABAJ'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 100px auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #004080; /* Dark blue color */
+}
+
+.sensor-data {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sensor-block {
+    background-color: #ffffff;
+    border: 2px solid #004080;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sensor-block h2 {
+    font-size: 1.2em;
+    margin: 0;
+    color: #004080;
+}
+
+.sensor-block p {
+    font-size: 1.5em;
+    margin: 5px 0 0;
+    color: #333;
+}
